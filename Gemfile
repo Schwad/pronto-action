@@ -9,6 +9,7 @@ gem 'pronto'
 gem 'pronto-brakeman', require: false
 gem 'pronto-eslint_npm', require: false
 gem 'pronto-rails_best_practices', require: false
+gem 'pronto-reek', require: false
 gem 'pronto-rubocop', require: false
 gem 'pronto-scss', require: false
 gem 'pronto-slim_lint', require: false
