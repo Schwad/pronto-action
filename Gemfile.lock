@@ -20,7 +20,7 @@ GEM
     ffi (1.13.1)
     gitlab (4.16.1)
       httparty (~> 0.14, >= 0.14.0)
-      terminal-table (~> 1.5, >= 1.5.1)
+      terminal-table (~> 1.5, >= 1.5.0)
     httparty (0.18.1)
       mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
