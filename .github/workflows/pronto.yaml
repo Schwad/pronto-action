@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: Schwad/pronto-action@v1.5.1
+      - uses: schwad/pronto-action-reek-fork@v1.5.2
         with:
           github_token: ${{ secrets.WORKFLOW_TOKEN }}

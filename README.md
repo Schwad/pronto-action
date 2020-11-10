@@ -63,7 +63,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: HeRoMo/pronto-action@v1.5.1
+      - uses: schwad/pronto-action-reek-fork@v1.5.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           commit: origin/main
@@ -71,7 +71,7 @@ jobs:
 
 ### For running eslint_npm runner
 
-By using eslint_npm runner, you can check your code by eslint. 
+By using eslint_npm runner, you can check your code by eslint.
 To use eslint_npm, setup Node.js and run `yarn install`(or `npm install`) before using pronto-action.
 
 The following yaml define a workflow use eslint_npm.
@@ -93,7 +93,7 @@ jobs:
       - name: yarn install
         run: yarn install
       - name: pronto run
-        uses: HeRoMo/pronto-action@v1.5.1
+        uses: schwad/pronto-action-reek-fork@v1.5.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           runner: eslint_npm

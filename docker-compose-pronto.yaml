@@ -1,7 +1,7 @@
 version: '3'
 services:
   pronto:
-    image: ghcr.io/schwad/pronto-action:1.5.1
+    image: ghcr.io/schwad/pronto-action-reek-fork:1.5.2
     volumes:
       - .:/pronto
     entrypoint: ["pronto"]
